@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ed5252;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-cute-teeth-objects-dental-care-purple-background-seamless-pattern-cute-teeth-objects-157579774.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-repeat: repeat;
+}
+
+.container {
+  /* background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-cute-teeth-objects-dental-care-purple-background-seamless-pattern-cute-teeth-objects-157579774.jpg"); */
+  background-color: #4a4d65f1;
+
+  margin: 3rem auto;
+  max-width: 70%;
+  padding: 2rem;
+  /* border: 2px solid rgb(104, 71, 71); */
+  border-radius: 5px;
+}
+
+.header {
+  margin: 1rem;
+}
+
+/* doktor resimleri  */
+.doctorBtn {
+  object-fit: cover;
+  height: 250px;
+  width: 95%;
+  min-width: 80%;
+  border: none;
+  cursor: pointer;
+  /* outline: none; */
+  padding: 0.3rem;
+  box-shadow: 0 5px 15px rgba(214, 209, 209, 0.819);
+  border-radius: 25px;
+  /* border: 2px solid red; */
+
+}
+
+
+
+/* ilk sayfadaki 4 doktor resmi ve isimlerinin div i*/
+.dr {
+  display: flex;
+  gap: 2rem 1rem;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+
+}
+
+.dr div {
+  /* display: flex; */
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 25%;
+  min-width: 20%;
+}
+
+.imgTutanDiv {
+  /* display: flex; */
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 300px;
+
+}
+.imgTutanDiv img{
+  /* display: flex; */
+  text-align: center;
+  /* border: 2px solid red; */
+  width:350px;
+  min-width: 200px;
+  height: 300px;
+}
+
+.doctorName {
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  border-radius: 0.8rem;
+  background-color: #fff;
+  white-space: nowrap;
+  /* overflow: hidden; */
+  width: 100%;
+  /* border-left: 5px solid blue; */
+  border-bottom: 3px solid blue;
+}
+
+/* 2. sayfadaki kayıt oluştur butonu */
+.kayitBtn {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #25ad69;
+  width: 300px;
+  margin: 1rem auto;
+  padding: 1rem;
+  /* border: 1px solid #6a0707; */
+  border-radius: 50px;
+}
+
+.form-control {
+  margin: 25px 0;
+}
+
+.form-control label {
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+}
+
+/*! data daki isDone kısmı false iken görünecek stil */
+.falseStyle {
+  position: relative;
+  text-align: left;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("https://img.freepik.com/free-vector/watercolor-background_220290-15.jpg?w=2000");
+  background-size: cover;
+  background-position: center center;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-left: 10px solid #5fff08;
+
+
+}
+
+.randevularDiv {
+  justify-content: space-around;
+}
+
+/*! data daki isDone kısmı false iken görünecek stil */
+.falseStyle2 {
+  position: relative;
+  text-align: left;
+  width: 700px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("https://img.freepik.com/free-vector/watercolor-background_220290-15.jpg?w=2000");
+
+  background-size: cover;
+  background-position: center center;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-left: 10px solid #5fff08;
+
+
+}
+
+.falseStyle h2 {
+  color: green;
+}
+
+.falseStyle h3 {
+  color: #152bbb;
+}
+
+.hastaInfo {
+  text-align: left;
+}
+
+.randevuInfo {
+  /* display: flex; */
+  align-items: center;
+  justify-items: space-between;
+  gap: 1rem;
+  /* border: 2px solid red; */
+}
+
+.department {
+  position: absolute;
+  top: 32%;
+  left: 75%;
+  text-align: left;
+  font-size: 1.1rem;
+
+}
+
+/*! data daki isDone kısmı true iken görünecek stil */
+.trueStil {
+  text-align: left;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 10px solid #db3535;
+  background-color: #9b9d9d;
+  padding: 10px 20px;
+  margin: 5px;
+  opacity: 0.5;
+}
+.trueStil2 {
+  text-align: left;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 10px solid #db3535;
+  background-color: #9b9d9d;
+  padding: 10px 20px;
+  margin: 5px;
+  opacity: 0.5;
+}
+
+.trueStil h3,
+.trueStil h2 {
+  text-decoration: line-through;
+  color: rgb(93, 93, 98);
+}
+
+.doctorBtn+h4 {
+  padding: 10px 20px;
+  /* doctorBtn className li img den sonraki h4 doktor isimleri */
+
+}
